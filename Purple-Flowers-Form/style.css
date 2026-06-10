@@ -1,3 +1,7 @@
+:root {
+    --purple-color: #8B5CF6;
+}
+
 body {
     background: linear-gradient(
     90deg,
@@ -31,7 +35,7 @@ section {
 /* Left form side */
 
 .info-container {
-    background-color: purple;
+    background-color: var(--purple-color);
     background-image: url(images/5.png);
     background-position: center;
     background-size: cover;
@@ -63,7 +67,7 @@ section {
 }
 
 .add-icon i {
-    color: #8B5CF6;
+    color: var(--purple-color);
     font-size: 36px;
 }
 
@@ -75,7 +79,7 @@ h1 {
 }
 
 h1 span {
-    color: #8B5CF6;
+    color: var(--purple-color);
     padding-left: 25px;
 }
 
@@ -94,7 +98,7 @@ h1 span {
 }
 
 .bi-heart-fill{
-    color: #8B5CF6;
+    color: var(--purple-color);
     
     font-size: 12px;
 
@@ -113,3 +117,200 @@ h1 span {
 
 /* Right form side */
 
+input {
+    border: 0;
+}
+
+.inputs-container {
+    padding: 25px;
+}
+
+.inputs-container h2 {
+    font-weight: 400;
+}
+
+.inputs-container p {
+    margin-top: -15px;
+    
+    color: gray;
+    font-size: 14px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    margin-top: 20px;
+}
+
+.input-section {
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.input-section .icon{
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px;
+
+    border-radius: 5px;
+
+    color: var(--purple-color);
+    background-color: rgb(243, 239, 243);
+}
+
+.input-box label {
+    font-size: 12px;
+}
+
+.bi-eye {
+    padding-left: 160px;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.agreement p {
+    font-size: 11px;
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+.agreement a {
+    color: var(--purple-color);
+    text-decoration: none;
+
+    font-weight: 600;
+}
+
+.agreement input {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+}
+
+.agreement input:checked {
+    background-color: var(--purple-color);
+}
+
+.btn-create {
+    background-color: var(--purple-color);
+    
+    color: white;
+    font-size: 14px;
+
+    height: 45px;
+    width: 100%;
+
+    border: 0;
+    border-radius: 10px;
+    
+    margin-top: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    transition: 0.5s;
+}
+
+.btn-create:hover {
+    color: var(--purple-color);
+    background-color: rgb(211, 211, 211)
+}
+
+.btn-create i {
+    position: absolute;
+    right: 15px;
+
+    font-size: 16px;
+}
+
+.continue-with {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.continue-with div {
+    width: 150px;
+}
+
+.continue-with p {
+    margin-top: 10px;
+
+    font-size: 10px;
+}
+
+.social {
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social i{
+    color: var(--purple-color);
+}
+
+.social button {
+    background-color: rgba(255, 255, 255, 0.5);
+
+    height: 40px;
+    width: 120px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    transition: 0.5s;
+}
+
+.social button:hover {
+    background-color: var(--purple-color);
+}
+
+.social button:hover i{
+    color: white;
+}
+
+.already-have {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 35px;
+}
+
+.already-have p {
+    font-size: 11px;
+}
+
+.already-have a {
+    color: var(--purple-color);
+
+    text-decoration: none;
+}
