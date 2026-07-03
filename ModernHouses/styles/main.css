@@ -1,0 +1,20 @@
+@import url(header.css);
+@import url(hero.css);
+@import url(variables.css);
+@import url(reasons.css);
+@import url(styles.css);
+@import url(Gallery.css);
+@import url(reviews.css);
+@import url(build.css);
+@import url(footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+}

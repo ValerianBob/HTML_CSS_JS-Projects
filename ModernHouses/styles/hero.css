@@ -1,0 +1,51 @@
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../Images/HeaderBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-info {
+    color: var(--Main-color-1);
+
+    padding: 200px 100px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hero-info h2 {
+    font-size: 95px;
+    font-weight: 500;
+}
+
+.hero-info p {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.hero-info button {
+    cursor: pointer;
+
+    border-radius: 5px;
+    border: none;
+
+    width: 300px;
+    height: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hero-info button::after {
+   content: " ➜";
+}

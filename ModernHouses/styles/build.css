@@ -1,0 +1,52 @@
+.build {
+    background-image: linear-gradient(rgba(6, 18, 31, 0.9), rgba(6, 18, 31, 0.9)), 
+    url("../Images/HeaderBackground.png");
+
+    background-position: center;
+
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: var(--Main-color-1);
+}
+
+.build-text {
+    display: flex;
+    gap: 52px;
+}
+
+.build i {
+    font-size: 60px;
+}
+
+.build h1 {
+    font-weight: 500;
+}
+
+.build p {
+    color: rgb(179, 179, 179);
+}
+
+.build button {
+    width: 230px;
+    height: 60px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-weight: 700;
+
+    background-color: var(--Main-color-1);
+}
+
+.build button::after {
+   content: " ➜";
+
+   margin-left: 35px;
+
+   font-size: 17px;
+}
