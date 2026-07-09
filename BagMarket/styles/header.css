@@ -1,0 +1,31 @@
+header {
+    background-color: var(--main-color);
+}
+
+.header-nav {
+    width: 95%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+header i {
+    font-size: 2rem;
+}
+
+header input {
+    width: 50%;
+    height: 25px;
+
+    border-radius: 10px;
+    border: none;
+
+    padding: 0.75rem 1rem;
+}

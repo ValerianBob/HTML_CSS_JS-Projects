@@ -1,0 +1,16 @@
+@import url("../styles/variables.css");
+@import url("../styles/header.css");
+@import url("../styles/advertisement.css");
+@import url("../styles/catregories.css");
+@import url("../styles/products.css");
+@import url("../styles/footer.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}

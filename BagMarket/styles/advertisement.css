@@ -1,0 +1,84 @@
+.advertisement {
+    width: 95%;
+    height: 500px;
+
+    border-radius: 10px;
+
+    margin: 15px auto;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    flex-direction: column;
+}
+
+.advertisement img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    object-position: center;
+
+    position: absolute;
+
+    z-index: -1;
+}
+
+.advertisement .summer-sale {
+    background-color: var(--main-color);
+
+    width: 100px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 15px;
+
+    font-size: 0.8rem;
+}
+
+.advertisement button {
+    width: 100px;
+    height: 40px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: aqua;
+}
+
+.advertisement .advertisement-menu {
+    margin-right: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.advertisement .toggle-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advertisement .toggle-items .item {
+    background-color: var(--main-color);
+    
+    width: 15px;
+    height: 15px;
+
+    border-radius: 50px;
+}
+
