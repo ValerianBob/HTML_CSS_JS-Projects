@@ -1,0 +1,19 @@
+body {
+    background-color: var(--deep-navy);
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 400px;
+    height: 420px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+
+    background-color: var(--soft-white);
+}

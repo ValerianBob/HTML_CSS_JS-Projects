@@ -1,0 +1,13 @@
+@import url(/styles/variables.css);
+@import url(/styles/calculator.css);
+@import url(/styles/buttons.css);
+@import url(/styles/display.css);
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+}

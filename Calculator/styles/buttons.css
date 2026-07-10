@@ -1,0 +1,55 @@
+.buttons {
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+#AC {
+    grid-column: 2 / 4;
+}
+
+#zero {
+    grid-column: 1 / 3;
+}
+
+button {
+    height: 50px;
+
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    cursor: pointer;
+}
+
+.number-btn {
+    background-color: var(--soft-white);
+    color: var(--deep-navy);
+
+    font-size: 20px;   
+    font-weight: bold; 
+}
+
+.function-btn {
+    background-color: var(--soft-levender);
+    color: var(--deep-navy);
+
+    font-size: 18px;   
+}
+
+.action-btn {
+    background-color: var(--primary-purple);
+    color: var(--soft-white);
+
+    font-size: 24px;
+}
+
+#equal {
+    background-color: var(--vibrant-orange);
+    color: var(--soft-white);
+
+    font-size: 24px;
+}
